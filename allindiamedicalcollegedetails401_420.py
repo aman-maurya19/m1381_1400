@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/akar-college-of-physiotherapy-ahmedabad-197279",
-  "https://www.shiksha.com/college/cks-teja-institute-of-dental-sciences-and-research-tirupati-67645",
-  "https://www.shiksha.com/college/late-babruwan-vitthalrao-kale-manjara-ayurved-medical-college-and-hospital-latur-87025",
-  "https://www.shiksha.com/college/vijaya-institute-of-pharmaceutical-sciences-for-women-vijayawada-60941",
-  "https://www.shiksha.com/college/veterinary-college-and-research-institute-udumalpet-tamil-nadu-veterinary-and-animal-sciences-university-tirupur-211671",
-  "https://www.shiksha.com/college/government-polytechnic-for-girls-patiala-59215",
-  "https://www.shiksha.com/college/metropolitan-homoeopathic-medical-college-and-hospital-kolkata-87047",
-  "https://www.shiksha.com/college/s-s-agrawal-homoeopathic-medical-college-navsari-87439",
-  "https://www.shiksha.com/college/smt-a-j-savla-homoeopathic-medical-college-mehsana-87549",
-  "https://www.shiksha.com/college/shree-sainath-college-of-pharmacy-nagpur-87695",
-  "https://www.shiksha.com/college/mahatma-gandhi-mission-medical-college-vashi-navi-mumbai-213237",
-  "https://www.shiksha.com/college/institute-of-human-behavior-and-allied-sciences-university-of-delhi-dilshad-garden-23539",
-  "https://www.shiksha.com/college/silicobyte-katni-degree-college-88661",
-  "https://www.shiksha.com/college/k-v-t-r-ayurved-college-shirpur-86977",
-  "https://www.shiksha.com/college/simpathy-institute-of-homeopathic-pharmacy-and-hospital-badarpur-delhi-213161",
-  "https://www.shiksha.com/college/nirmala-college-of-pharmacy-ernakulum-60811",
-  "https://www.shiksha.com/college/dr-vedprakash-patil-ayurved-hospital-and-research-institute-maharashtra-other-68255",
-  "https://www.shiksha.com/college/bethany-navajeevan-college-of-phsiotherapy-trivandrum-194677",
-  "https://www.shiksha.com/university/north-orissa-university-nou-orissa-orissa-other-47550",
-  "https://www.shiksha.com/college/government-medical-college-sri-ganganagar-sriganaganagar-210113",
+  "https://www.shiksha.com/college/kanchi-kamakoti-childs-trust-hospital-nungambakkam-chennai-72603",
+  "https://www.shiksha.com/college/government-polytechnic-college-uttawar-palwal-97001",
+  "https://www.shiksha.com/college/patel-college-of-pharmacy-bhopal-53637",
+  "https://www.shiksha.com/college/kdmg-ayurvedic-medical-college-and-hospital-jalgaon-68147",
+  "https://www.shiksha.com/college/pr-patil-institute-of-pharmacy-talegaon-wardha-89059",
+  "https://www.shiksha.com/college/institute-of-public-health-kalyani-182107",
+  "https://www.shiksha.com/university/kaushalya-the-skills-university-ahmedabad-203131",
+  "https://www.shiksha.com/college/ilam-jagannath-university-delhi-nehru-place-39551",
+  "https://www.shiksha.com/college/krishna-teja-pharmacy-college-tirupati-60604",
+  "https://www.shiksha.com/college/vikas-institute-of-pharmaceutical-sciences-rajahmundry-60921",
+  "https://www.shiksha.com/college/post-graduate-institute-yashwantrao-chavan-memorial-hospital-pimpri-pune-67593",
+  "https://www.shiksha.com/college/smt-r-d-gardi-b-pharmacy-college-rajkot-87645",
+  "https://www.shiksha.com/college/dr-jj-magdum-pharmacy-college-kolhapur-88845",
+  "https://www.shiksha.com/college/government-homoeopathic-medical-college-kozhikode-66073",
+  "https://www.shiksha.com/college/government-medical-college-alwar-214007",
+  "https://www.shiksha.com/college/aig-hospital-hyderabad-240640",
+  "https://www.shiksha.com/college/st-joseph-dental-college-eluru-67651",
+  "https://www.shiksha.com/college/sjpes-s-homoeopathic-medical-college-kolhapur-70157",
+  "https://www.shiksha.com/college/satya-sai-murlidhar-ayurvedic-college-and-hospital-moga-87377",
+  "https://www.shiksha.com/college/k-t-patil-college-of-pharmacy-osmanabad-88011",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1381
+    c_count = 1601
 
     try:
         for base_url in BASE_URL:
