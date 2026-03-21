@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/kanchi-kamakoti-childs-trust-hospital-nungambakkam-chennai-72603",
-  "https://www.shiksha.com/college/government-polytechnic-college-uttawar-palwal-97001",
-  "https://www.shiksha.com/college/patel-college-of-pharmacy-bhopal-53637",
-  "https://www.shiksha.com/college/kdmg-ayurvedic-medical-college-and-hospital-jalgaon-68147",
-  "https://www.shiksha.com/college/pr-patil-institute-of-pharmacy-talegaon-wardha-89059",
-  "https://www.shiksha.com/college/institute-of-public-health-kalyani-182107",
-  "https://www.shiksha.com/university/kaushalya-the-skills-university-ahmedabad-203131",
-  "https://www.shiksha.com/college/ilam-jagannath-university-delhi-nehru-place-39551",
-  "https://www.shiksha.com/college/krishna-teja-pharmacy-college-tirupati-60604",
-  "https://www.shiksha.com/college/vikas-institute-of-pharmaceutical-sciences-rajahmundry-60921",
-  "https://www.shiksha.com/college/post-graduate-institute-yashwantrao-chavan-memorial-hospital-pimpri-pune-67593",
-  "https://www.shiksha.com/college/smt-r-d-gardi-b-pharmacy-college-rajkot-87645",
-  "https://www.shiksha.com/college/dr-jj-magdum-pharmacy-college-kolhapur-88845",
-  "https://www.shiksha.com/college/government-homoeopathic-medical-college-kozhikode-66073",
-  "https://www.shiksha.com/college/government-medical-college-alwar-214007",
-  "https://www.shiksha.com/college/aig-hospital-hyderabad-240640",
-  "https://www.shiksha.com/college/st-joseph-dental-college-eluru-67651",
-  "https://www.shiksha.com/college/sjpes-s-homoeopathic-medical-college-kolhapur-70157",
-  "https://www.shiksha.com/college/satya-sai-murlidhar-ayurvedic-college-and-hospital-moga-87377",
-  "https://www.shiksha.com/college/k-t-patil-college-of-pharmacy-osmanabad-88011",
+  "https://www.shiksha.com/college/kokrajhar-medical-college-rangalikhata-213223",
+  "https://www.shiksha.com/college/arnav-ayurvedic-medical-college-barabanki-242318",
+  "https://www.shiksha.com/college/sai-meer-college-of-pharmacy-kannauj-65663",
+  "https://www.shiksha.com/college/sukhjinder-group-of-institutes-gurdaspur-66439",
+  "https://www.shiksha.com/college/government-polytechnic-college-for-women-chandigarh-98843",
+  "https://www.shiksha.com/college/al-ameen-unani-medical-college-and-hospital-nashik-192627",
+  "https://www.shiksha.com/college/susrijo-institute-of-paramedical-technology-and-optometry-nadia-196077",
+  "https://www.shiksha.com/college/huda-group-of-institutions-nagaon-207539",
+  "https://www.shiksha.com/college/ct-institute-of-higher-studies-jalandhar-52066",
+  "https://www.shiksha.com/college/bhavdiya-institute-of-pharmaceutical-sciences-and-research-faizabad-59521",
+  "https://www.shiksha.com/college/ktn-college-of-pharmacy-palakkad-60863",
+  "https://www.shiksha.com/college/sagar-college-of-pharmacy-barabanki-65403",
+  "https://www.shiksha.com/college/ahalia-ayurveda-medical-college-palakkad-66215",
+  "https://www.shiksha.com/college/krishna-group-of-colleges-bijnor-72707",
+  "https://www.shiksha.com/college/chaitanya-ayurved-mahavidyalaya-jalgaon-86975",
+  "https://www.shiksha.com/college/jay-jalaram-homoeopathic-medical-college-panchmahal-87471",
+  "https://www.shiksha.com/college/medical-trust-hospital-kochi-105919",
+  "https://www.shiksha.com/college/bharathidasan-government-college-pondicherry-128139",
+  "https://www.shiksha.com/college/government-college-for-girls-ludhiana-67615",
+  "https://www.shiksha.com/college/jyothishmathi-institute-of-pharmaceutical-sciences-karimnagar-89303",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1581
+    c_count = 1381
 
     try:
         for base_url in BASE_URL:
