@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/vellalar-college-for-women-erode-21488",
-  "https://www.shiksha.com/college/smt-vidyawati-college-of-pharmacy-jhansi-59385",
-  "https://www.shiksha.com/college/chilkur-balaji-college-of-pharmacy-hyderabad-87731",
-  "https://www.shiksha.com/college/apollo-bgs-hospitals-mysore-105965",
-  "https://www.shiksha.com/college/rosy-royal-college-of-pharmacy-bangalore-146825",
-  "https://www.shiksha.com/college/pacific-institute-of-management-pacific-university-udaipur-32359",
-  "https://www.shiksha.com/college/gardi-vidyapith-group-of-institutions-rajkot-60095",
-  "https://www.shiksha.com/college/coochbehar-government-medical-college-65269",
-  "https://www.shiksha.com/college/triveni-institute-of-pharmacy-thrissur-66139",
-  "https://www.shiksha.com/college/global-institute-of-ayurveda-rajkot-87449",
-  "https://www.shiksha.com/college/thanthai-roever-college-of-pharmacy-perambalur-88295",
-  "https://www.shiksha.com/college/indore-mahavidyalaya-147323",
-  "https://www.shiksha.com/college/jss-college-of-physiotherapy-mysore-210815",
-  "https://www.shiksha.com/college/ramkrishna-care-hospitals-raipur-106015",
-  "https://www.shiksha.com/college/government-medical-college-wanaparthy-telangana-other-207509",
-  "https://www.shiksha.com/college/ppg-institute-of-optometry-coimbatore-225651",
-  "https://www.shiksha.com/university/mind-power-university-nainital-228457",
-  "https://www.shiksha.com/college/gsrm-memorial-college-of-pharmacy-lucknow-59889",
-  "https://www.shiksha.com/college/sree-sastha-arts-and-science-college-chembarambakkam-chennai-64959",
-  "https://www.shiksha.com/college/jkk-nattraja-college-of-pharmacy-salem-88291",
+  "https://www.shiksha.com/college/pes-university-hanumanth-nagar-campus-hanumanth-nagar-bangalore-61839",
+  "https://www.shiksha.com/college/ayurvedic-college-hospital-and-research-centre-washim-87013",
+  "https://www.shiksha.com/college/institute-of-pharmacy-west-bengal-jalpaiguri-87667",
+  "https://www.shiksha.com/college/dr-ram-manohar-lohia-combined-hospital-lucknow-105983",
+  "https://www.shiksha.com/college/nkr-government-arts-college-for-women-namakkal-111843",
+  "https://www.shiksha.com/college/baba-hira-dass-ji-college-of-veterinary-pharmacy-muktsar-140895",
+  "https://www.shiksha.com/college/shri-ganpati-institute-of-pharmaceutical-sciences-and-research-tembhurni-solapur-179681",
+  "https://www.shiksha.com/college/nagar-school-of-optometry-ahmedabad-197671",
+  "https://www.shiksha.com/college/varvand-gram-shikshan-sansthas-eknath-sitaram-divekar-college-of-pharmacy-varvand-pune-208103",
+  "https://www.shiksha.com/university/mit-vishwaprayag-university-solapur-213315",
+  "https://www.shiksha.com/college/college-of-veterinary-science-and-animal-husbandry-anand-224571",
+  "https://www.shiksha.com/college/h-k-d-e-t-s-rajarajeshwari-ayurvedic-medical-college-and-hospital-bidar-68235",
+  "https://www.shiksha.com/college/dooars-academy-of-technology-and-management-jalpaiguri-71511",
+  "https://www.shiksha.com/college/t-m-a-e-s-ayurvedic-medical-college-nidige-shimoga-87261",
+  "https://www.shiksha.com/college/shree-b-a-dangar-homoeopathic-medical-college-rajkot-87563",
+  "https://www.shiksha.com/college/sahasra-institute-of-pharmaceutical-sciences-warangal-88139",
+  "https://www.shiksha.com/college/sanjiban-institute-of-health-sciences-howrah-182119",
+  "https://www.shiksha.com/college/gem-hospital-and-research-centre-pvt-ltd-coimbatore-193609",
+  "https://www.shiksha.com/college/cauvery-college-of-pharmacy-karnataka-other-156759",
+  "https://www.shiksha.com/college/government-medical-college-virudhunagar-180717",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2061
+    c_count = 2341
 
     try:
         for base_url in BASE_URL:
