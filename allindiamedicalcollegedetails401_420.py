@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/pes-university-hanumanth-nagar-campus-hanumanth-nagar-bangalore-61839",
-  "https://www.shiksha.com/college/ayurvedic-college-hospital-and-research-centre-washim-87013",
-  "https://www.shiksha.com/college/institute-of-pharmacy-west-bengal-jalpaiguri-87667",
-  "https://www.shiksha.com/college/dr-ram-manohar-lohia-combined-hospital-lucknow-105983",
-  "https://www.shiksha.com/college/nkr-government-arts-college-for-women-namakkal-111843",
-  "https://www.shiksha.com/college/baba-hira-dass-ji-college-of-veterinary-pharmacy-muktsar-140895",
-  "https://www.shiksha.com/college/shri-ganpati-institute-of-pharmaceutical-sciences-and-research-tembhurni-solapur-179681",
-  "https://www.shiksha.com/college/nagar-school-of-optometry-ahmedabad-197671",
-  "https://www.shiksha.com/college/varvand-gram-shikshan-sansthas-eknath-sitaram-divekar-college-of-pharmacy-varvand-pune-208103",
-  "https://www.shiksha.com/university/mit-vishwaprayag-university-solapur-213315",
-  "https://www.shiksha.com/college/college-of-veterinary-science-and-animal-husbandry-anand-224571",
-  "https://www.shiksha.com/college/h-k-d-e-t-s-rajarajeshwari-ayurvedic-medical-college-and-hospital-bidar-68235",
-  "https://www.shiksha.com/college/dooars-academy-of-technology-and-management-jalpaiguri-71511",
-  "https://www.shiksha.com/college/t-m-a-e-s-ayurvedic-medical-college-nidige-shimoga-87261",
-  "https://www.shiksha.com/college/shree-b-a-dangar-homoeopathic-medical-college-rajkot-87563",
-  "https://www.shiksha.com/college/sahasra-institute-of-pharmaceutical-sciences-warangal-88139",
-  "https://www.shiksha.com/college/sanjiban-institute-of-health-sciences-howrah-182119",
-  "https://www.shiksha.com/college/gem-hospital-and-research-centre-pvt-ltd-coimbatore-193609",
-  "https://www.shiksha.com/college/cauvery-college-of-pharmacy-karnataka-other-156759",
-  "https://www.shiksha.com/college/government-medical-college-virudhunagar-180717",
+  "https://www.shiksha.com/college/dr-yadubir-sinha-homeopathic-medical-college-and-hospital-darbhanga-182247",
+  "https://www.shiksha.com/college/naseema-institute-of-optometry-and-research-bangalore-184957",
+  "https://www.shiksha.com/college/flemming-college-of-pharmacy-kolkata-208341",
+  "https://www.shiksha.com/college/ambedkar-institute-of-higher-education-patna-231338",
+  "https://www.shiksha.com/college/hindustan-career-plus-college-agra-46258",
+  "https://www.shiksha.com/university/national-sports-university-imphal-65257",
+  "https://www.shiksha.com/college/roorkee-business-school-laksar-haridwar-75065",
+  "https://www.shiksha.com/college/anil-alias-pintu-magdum-memorial-pharmacy-college-kolhapur-88849",
+  "https://www.shiksha.com/college/rjtja-diploma-pharmacy-college-murshidabad-99973",
+  "https://www.shiksha.com/college/rungta-institute-of-pharmaceutical-sciences-bhilai-145443",
+  "https://www.shiksha.com/college/american-orthopedic-institute-of-india-greater-noida-180875",
+  "https://www.shiksha.com/college/dr-vijay-college-of-pharmacy-varanasi-181191",
+  "https://www.shiksha.com/college/rkm-ayurvedic-medical-college-karnataka-other-184813",
+  "https://www.shiksha.com/college/dhanwantri-ayurved-nursing-training-centre-sikar-87127",
+  "https://www.shiksha.com/college/kalyan-homoeopathic-medical-college-and-hospital-tarn-taran-87135",
+  "https://www.shiksha.com/college/late-maharudra-bappa-mote-college-of-pharmacy-maharashtra-other-99355",
+  "https://www.shiksha.com/college/dakshin-solapur-taluka-shikshan-mandal-s-college-of-pharmacy-99777",
+  "https://www.shiksha.com/college/sojar-college-of-pharmacy-solapur-100343",
+  "https://www.shiksha.com/college/south-eastern-railways-central-hospital-kolkata-105981",
+  "https://www.shiksha.com/college/m-r-bangur-hospital-kolkata-106031",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2341
+    c_count = 3081
 
     try:
         for base_url in BASE_URL:
