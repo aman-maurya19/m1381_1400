@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/dr-yadubir-sinha-homeopathic-medical-college-and-hospital-darbhanga-182247",
-  "https://www.shiksha.com/college/naseema-institute-of-optometry-and-research-bangalore-184957",
-  "https://www.shiksha.com/college/flemming-college-of-pharmacy-kolkata-208341",
-  "https://www.shiksha.com/college/ambedkar-institute-of-higher-education-patna-231338",
-  "https://www.shiksha.com/college/hindustan-career-plus-college-agra-46258",
-  "https://www.shiksha.com/university/national-sports-university-imphal-65257",
-  "https://www.shiksha.com/college/roorkee-business-school-laksar-haridwar-75065",
-  "https://www.shiksha.com/college/anil-alias-pintu-magdum-memorial-pharmacy-college-kolhapur-88849",
-  "https://www.shiksha.com/college/rjtja-diploma-pharmacy-college-murshidabad-99973",
-  "https://www.shiksha.com/college/rungta-institute-of-pharmaceutical-sciences-bhilai-145443",
-  "https://www.shiksha.com/college/american-orthopedic-institute-of-india-greater-noida-180875",
-  "https://www.shiksha.com/college/dr-vijay-college-of-pharmacy-varanasi-181191",
-  "https://www.shiksha.com/college/rkm-ayurvedic-medical-college-karnataka-other-184813",
-  "https://www.shiksha.com/college/dhanwantri-ayurved-nursing-training-centre-sikar-87127",
-  "https://www.shiksha.com/college/kalyan-homoeopathic-medical-college-and-hospital-tarn-taran-87135",
-  "https://www.shiksha.com/college/late-maharudra-bappa-mote-college-of-pharmacy-maharashtra-other-99355",
-  "https://www.shiksha.com/college/dakshin-solapur-taluka-shikshan-mandal-s-college-of-pharmacy-99777",
-  "https://www.shiksha.com/college/sojar-college-of-pharmacy-solapur-100343",
-  "https://www.shiksha.com/college/south-eastern-railways-central-hospital-kolkata-105981",
-  "https://www.shiksha.com/college/m-r-bangur-hospital-kolkata-106031",
+  "https://www.shiksha.com/college/rajiv-gandhi-super-speciality-hospital-delhi-other-214445",
+  "https://www.shiksha.com/college/maa-pateshwari-group-of-institution-balrampur-237020",
+  "https://www.shiksha.com/college/a-p-j-abdul-kalam-institute-west-bengal-other-237222",
+  "https://www.shiksha.com/college/manipal-hospital-sarjapur-road-bangalore-241910",
+  "https://www.shiksha.com/college/biyani-college-of-yoga-and-naturopathy-jaipur-245108",
+  "https://www.shiksha.com/college/institute-of-environment-and-management-lucknow-3268",
+  "https://www.shiksha.com/college/t-d-t-r-d-a-v-institute-of-physiotherapy-and-rehabilitation-yamuna-nagar-21957",
+  "https://www.shiksha.com/college/hindustan-institute-of-technology-and-management-ambala-27109",
+  "https://www.shiksha.com/college/government-prosthetic-and-orthotic-college-ahmedabad-197681",
+  "https://www.shiksha.com/college/palamau-institute-of-pharmacy-jharkhand-other-207621",
+  "https://www.shiksha.com/college/vananchal-college-of-pharmacy-jharkhand-other-207659",
+  "https://www.shiksha.com/college/siddaganga-college-of-pharmacy-bangalore-207925",
+  "https://www.shiksha.com/college/paradeep-pharmacy-college-jagatsinghpur-208145",
+  "https://www.shiksha.com/college/erk-college-of-pharmacy-chennai-208229",
+  "https://www.shiksha.com/college/government-medical-college-maheshwaram-telangana-other-231186",
+  "https://www.shiksha.com/college/d-l-s-college-of-pharmacy-bhagalpur-236324",
+  "https://www.shiksha.com/college/jharsuguda-pharmacy-college-236834",
+  "https://www.shiksha.com/college/ruby-hall-clinic-pune-240564",
+  "https://www.shiksha.com/college/ujala-cygnus-hospital-unit-1-kashipur-245214",
+  "https://www.shiksha.com/college/modern-college-of-physiotherapy-shivaji-nagar-pune-245528",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 3081
+    c_count = 3281
 
     try:
         for base_url in BASE_URL:
